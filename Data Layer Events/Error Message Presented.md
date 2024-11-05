@@ -10,7 +10,8 @@ appEventData.push({
     "error": {
         "errorCode": "<errorCode>",
         "errorType": "<errorType>"
-    }
+    },
+    "errorNum": <errorNum>
 });
 ```
 
@@ -20,6 +21,7 @@ appEventData.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |error.errorCode|string|Error code or Error message presented to the user|Credit Card Authorization Failed , EC345, Form is incomplete|||||||
 |error.errorType|string|General type of error presented|Payment, System, Form|||||||
+|errorNum|number|Number of errors\/alerts|||||1|||
 
 
 
