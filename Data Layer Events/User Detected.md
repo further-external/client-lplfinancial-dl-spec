@@ -11,7 +11,10 @@ appEventData.push({
         "anonymousUserID": "<anonymousUserID>",
         "custKey": "<custKey>",
         "entityTag": "<entityTag>",
+        "iknowRole": "<iknowRole>",
         "loginStatus": "<loginStatus>",
+        "serviceProfessional": <serviceProfessional>,
+        "spImpersonation": "<spImpersonation>",
         "userType": "<userType>"
     }
 });
@@ -24,7 +27,10 @@ appEventData.push({
 |user.anonymousUserID|string|When a user is not logged in,, this captures an anonymous user id.||||||||
 |user.custKey|string|Unique identifier of a customer.  Any id's considered PII must be hashed. ||||||||
 |user.entityTag|string|The entity tag of the user|RCIS|||||||
+|user.iknowRole|string|iKnow User Role|superuser, supervision, transition, service professional|||||||
 |user.loginStatus|string|Describes the login state of the user|logged in, logged out, guest|||||||
+|user.serviceProfessional|boolean|user.serviceProfessional||||||||
+|user.spImpersonation|string|What role is the service professional impersonating|RCPRU, RCIS, RCHYB|||||||
 |user.userType|string|Describes the type of the user.  Often used to differentiate customers from employees or associates. |employee, guest, agent, customer|||||||
 
 
